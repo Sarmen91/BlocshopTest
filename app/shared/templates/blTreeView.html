@@ -1,0 +1,23 @@
+﻿<ul class="no-list-type">
+    <li ng-repeat="item in items">
+        <div class="tree-item">
+            <span ng-click="$parent.toggleCollapse($event, item)" style="cursor:pointer">
+                <span ng-show="item.Children.length > 0">
+                    <span ng-show="item.isCollapsed" class="glyphicon glyphicon-chevron-right"></span>
+                    <span ng-show="!item.isCollapsed" class="glyphicon glyphicon-chevron-down"></span>
+                </span>
+                <span>{{item.Name}}</span>
+            </span>
+
+            <button type="button" class="btn btn-sm btn-primary" ng-click="$parent.add(item)"><span class="glyphicon glyphicon-plus-sign"></span></button>
+            <button type="button" class="btn btn-sm btn-danger" ng-click="$parent.delete(item)"><span class="glyphicon glyphicon-minus-sign"></span></button>
+        </div>
+
+        <bl-tree-view items="item.Children"
+                      before-item-added="beforeItemAdded"
+                      before-item-deleted="beforeItemDeleted"
+                      after-item-added="afterItemAdded"
+                      after-item-deleted="afterItemDeleted">
+        </bl-tree-view>
+    </li>
+</ul>

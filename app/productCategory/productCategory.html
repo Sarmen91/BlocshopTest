@@ -1,0 +1,13 @@
+﻿<button type="button" class="btn btn-sm btn-success" ng-click="vm.appendRootProductCategory()">
+    <span class="glyphicon glyphicon-plus-sign"></span>
+    Add Root Category
+</button>
+
+<div class="productCategoriesTree">
+    <bl-tree-view items="vm.productCategories"
+                  before-item-added="vm.promptProductCategoryItem"
+                  before-item-deleted="vm.askDeleteProductCategory"
+                  after-item-added="vm.createItem"
+                  after-item-deleted="vm.deleteItem">
+    </bl-tree-view>
+</div>
