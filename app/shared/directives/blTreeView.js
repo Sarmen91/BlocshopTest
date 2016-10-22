@@ -1,7 +1,7 @@
 ﻿(function () {
     'use strict';
 
-    angular.module('blocshopTest.Shared').directive('blTreeView', ['utilities', blTreeView]);
+    angular.module('blocshopTest.shared').directive('blTreeView', ['utilities', blTreeView]);
 
     function blTreeView(utilities) {
         return {

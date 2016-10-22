@@ -1,7 +1,7 @@
 ﻿(function () {
     'use strict';
 
-    angular.module('blocshopTest.Shared').controller('ErrorDialogController', ErrorDialogController);
+    angular.module('blocshopTest.shared').controller('ErrorDialogController', ErrorDialogController);
 
     ErrorDialogController.$inject = ['$uibModalInstance', 'title', 'message'];
 

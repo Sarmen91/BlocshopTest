@@ -1,5 +1,5 @@
 ﻿(function () {
     'use strict';
 
-    angular.module('blocshopTest.ProductCategory', []);
+    angular.module('blocshopTest.productCategory', []);
 })();

@@ -1,7 +1,7 @@
 ﻿(function () {
     'use strict';
 
-    angular.module('blocshopTest.ProductCategory').factory('productCategoryService', productCategoryService);
+    angular.module('blocshopTest.productCategory').factory('productCategoryService', productCategoryService);
 
     productCategoryService.$inject = ['$q', '$uibModal', 'commonDialogs'];
 

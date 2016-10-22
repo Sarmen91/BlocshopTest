@@ -1,7 +1,7 @@
 ﻿(function () {
     'use strict';
 
-    angular.module('blocshopTest.Shared').factory('logger', logger);
+    angular.module('blocshopTest.shared').factory('logger', logger);
 
     logger.$inject = [];
 

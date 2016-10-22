@@ -1,7 +1,7 @@
 ﻿(function () {
     'use strict';
 
-    angular.module('blocshopTest.ProductCategory').controller('ProductCategoryEditorController', ProductCategoryEditorController);
+    angular.module('blocshopTest.productCategory').controller('ProductCategoryEditorController', ProductCategoryEditorController);
 
     ProductCategoryEditorController.$inject = ['$uibModalInstance'];
 

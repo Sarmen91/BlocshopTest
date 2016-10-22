@@ -1,5 +1,5 @@
 ﻿(function () {
     'use strict';
 
-    angular.module('blocshopTest.Shared', []);
+    angular.module('blocshopTest.shared', []);
 })();

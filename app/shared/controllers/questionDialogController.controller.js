@@ -1,7 +1,7 @@
 ﻿(function () {
     'use strict';
 
-    angular.module('blocshopTest.Shared').controller('QuestionDialogController', QuestionDialogController);
+    angular.module('blocshopTest.shared').controller('QuestionDialogController', QuestionDialogController);
 
     QuestionDialogController.$inject = ['$uibModalInstance', 'title', 'message'];
 

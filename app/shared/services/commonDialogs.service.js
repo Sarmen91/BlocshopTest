@@ -1,7 +1,7 @@
 ﻿(function () {
     'use strict';
 
-    angular.module('blocshopTest.Shared').factory('commonDialogs', commonDialogs);
+    angular.module('blocshopTest.shared').factory('commonDialogs', commonDialogs);
 
     commonDialogs.$inject = ['$uibModal'];
 

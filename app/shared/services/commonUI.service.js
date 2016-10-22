@@ -1,7 +1,7 @@
 ﻿(function () {
     'use strict';
 
-    angular.module('blocshopTest.Shared').factory('commonUI', commonUI);
+    angular.module('blocshopTest.shared').factory('commonUI', commonUI);
 
     commonUI.$inject = ['$rootScope'];
 

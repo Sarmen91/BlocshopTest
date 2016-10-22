@@ -1,7 +1,7 @@
 ﻿(function () {
     'use strict';
 
-    angular.module('blocshopTest.ProductCategory').controller('ProductCategoryController', ProductCategoryController);
+    angular.module('blocshopTest.productCategory').controller('ProductCategoryController', ProductCategoryController);
 
     ProductCategoryController.$inject = ['$q', 'productCategoryService', 'commonUI', 'commonDialogs', 'logger'];
 

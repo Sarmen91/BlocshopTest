@@ -5,7 +5,7 @@
         'ngRoute',
         'ui.bootstrap',
 
-        'blocshopTest.Shared',
-        'blocshopTest.Home',
-        'blocshopTest.ProductCategory']);
+        'blocshopTest.shared',
+        'blocshopTest.home',
+        'blocshopTest.productCategory']);
 })();

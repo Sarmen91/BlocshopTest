@@ -1,7 +1,7 @@
 ﻿(function () {
     'use strict';
 
-    angular.module('blocshopTest.Shared').factory('utilities', utilities);
+    angular.module('blocshopTest.shared').factory('utilities', utilities);
 
     utilities.$inject = [];
 

@@ -1,7 +1,7 @@
 ﻿(function () {
     'use strict';
 
-    angular.module('blocshopTest.Home').controller('HomeController', HomeController);
+    angular.module('blocshopTest.home').controller('HomeController', HomeController);
 
     HomeController.$inject = [];
 
